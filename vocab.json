@@ -1,0 +1,271 @@
+[
+  {
+    "pronoun": "je",
+    "verb": "être",
+    "tense": "present",
+    "answer": "suis"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "être",
+    "tense": "present",
+    "answer": "es"
+  },
+  {
+    "pronoun": "il",
+    "verb": "être",
+    "tense": "present",
+    "answer": "est"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "être",
+    "tense": "present",
+    "answer": "êtes"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "être",
+    "tense": "present",
+    "answer": "sont"
+  },
+  {
+    "pronoun": "je",
+    "verb": "avoir",
+    "tense": "present",
+    "answer": "ai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "avoir",
+    "tense": "present",
+    "answer": "as"
+  },
+  {
+    "pronoun": "il",
+    "verb": "avoir",
+    "tense": "present",
+    "answer": "a"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "avoir",
+    "tense": "present",
+    "answer": "avez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "avoir",
+    "tense": "present",
+    "answer": "ont"
+  },
+  {
+    "pronoun": "je",
+    "verb": "aller",
+    "tense": "present",
+    "answer": "vais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "aller",
+    "tense": "present",
+    "answer": "vas"
+  },
+  {
+    "pronoun": "il",
+    "verb": "aller",
+    "tense": "present",
+    "answer": "va"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "aller",
+    "tense": "present",
+    "answer": "allez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "aller",
+    "tense": "present",
+    "answer": "vont"
+  },
+  {
+    "pronoun": "je",
+    "verb": "faire",
+    "tense": "present",
+    "answer": "fais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "faire",
+    "tense": "present",
+    "answer": "fais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "faire",
+    "tense": "present",
+    "answer": "fait"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "faire",
+    "tense": "present",
+    "answer": "faites"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "faire",
+    "tense": "present",
+    "answer": "font"
+  },
+  {
+    "pronoun": "je",
+    "verb": "finir",
+    "tense": "present",
+    "answer": "finis"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "finir",
+    "tense": "present",
+    "answer": "finis"
+  },
+  {
+    "pronoun": "il",
+    "verb": "finir",
+    "tense": "present",
+    "answer": "finit"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "finir",
+    "tense": "present",
+    "answer": "finissez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "finir",
+    "tense": "present",
+    "answer": "finissent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "prendre",
+    "tense": "present",
+    "answer": "prends"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "prendre",
+    "tense": "present",
+    "answer": "prends"
+  },
+  {
+    "pronoun": "il",
+    "verb": "prendre",
+    "tense": "present",
+    "answer": "prend"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "prendre",
+    "tense": "present",
+    "answer": "prenez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "prendre",
+    "tense": "present",
+    "answer": "prennent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "venir",
+    "tense": "present",
+    "answer": "viens"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "venir",
+    "tense": "present",
+    "answer": "viens"
+  },
+  {
+    "pronoun": "il",
+    "verb": "venir",
+    "tense": "present",
+    "answer": "vient"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "venir",
+    "tense": "present",
+    "answer": "venez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "venir",
+    "tense": "present",
+    "answer": "viennent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "dire",
+    "tense": "present",
+    "answer": "dis"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "dire",
+    "tense": "present",
+    "answer": "dis"
+  },
+  {
+    "pronoun": "il",
+    "verb": "dire",
+    "tense": "present",
+    "answer": "dit"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "dire",
+    "tense": "present",
+    "answer": "dites"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "dire",
+    "tense": "present",
+    "answer": "disent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "voir",
+    "tense": "present",
+    "answer": "vois"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "voir",
+    "tense": "present",
+    "answer": "vois"
+  },
+  {
+    "pronoun": "il",
+    "verb": "voir",
+    "tense": "present",
+    "answer": "voit"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "voir",
+    "tense": "present",
+    "answer": "voyez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "voir",
+    "tense": "present",
+    "answer": "voient"
+  } ]
