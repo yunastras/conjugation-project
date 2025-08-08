@@ -19,6 +19,7 @@ function loadVocabWithPromises() {
         .then(response => response.json())
         .then(data => {
             vocab = data;
+            displayCurrentWord();
             return vocab;
         })
         .catch(error => {
@@ -28,7 +29,7 @@ function loadVocabWithPromises() {
 
 // Variable to store the loaded vocabulary data
 let vocab = null;
-
+let currentIndex = 0;
 
 // Async/await is a way to write asynchronous code in JavaScript that looks and behaves more like regular, synchronous code.
 // When you use 'await' in front of a Promise (like fetch), JavaScript pauses the function at that line until the Promise resolves,
@@ -52,24 +53,28 @@ async function loadVocab()   {
     }
 }
 
-
-
-displayWords()
-// Function to display the first 10 vocab entries on the page
-async function displayWords() {
-    // Initialize an empty string to build the output
-    let content = '';
-    // Load the vocab data (waits for the async function to complete)
-    const data = await loadVocab();
-    // Loop through the first 10 items (or less if not enough data)
-    for (let i = 0; i < 10 && i < data.length; i++) {
-        const item = data[i]; // Get the current vocab object
-        // Add a formatted string for this vocab entry to the content
-        content += `Pronoun: ${item.pronoun}, Verb: ${item.verb}, Tense: ${item.tense}, Answer: ${item.answer}\n`;
+function displayCurrentWord() {
+    if (currentIndex >= vocab.length) {
+        document.getElementById("frenchWords").innerText = "All done! 🎉";
+        return;
     }
-    // Set the text of the element with id 'frenchWords' to the content string
-    document.getElementById("frenchWords").innerText = content;
+    const item = vocab[currentIndex];
+    document.getElementById("frenchWords").innerText =
+        `Pronoun: ${item.pronoun}, Verb: ${item.verb}, Tense: ${item.tense}`;
 }
 
-// Call the displayWords function to show the vocab on page load
-displayWords();
+function checkAnswer() {
+    const userInput = document.querySelector('#submissionBox').value.trim().toLowerCase();
+    const correctAnswer = vocab[currentIndex].answer.trim().toLowerCase();
+
+    if (userInput === correctAnswer) {
+        console.log("Correct!");
+        currentIndex++;
+        document.querySelector('#submissionBox').value = '';
+        displayCurrentWord();
+    } else {
+        console.log("Try again!");
+    }
+}
+
+loadVocab();
