@@ -1,3 +1,33 @@
 body {
-  background-color: lightblue;
+  background-color: rgb(68, 56, 82);
 }
+
+#projectTitle {
+  color: rgb(68, 56, 82);
+}
+
+#frenchWords {
+  color: rgb(68, 56, 82);
+}
+
+.textLabel {
+  color: rgb(68, 56, 82);
+  font-size: 18px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column; /* stack items vertically */
+  align-items: center;    /* center horizontally */
+  gap: 10px;              /* optional spacing between elements */
+
+  width: 500px;              /* box width */
+  padding: 50px;             /* inside spacing */
+  margin: 100px auto;        /* center horizontally + some vertical space */
+  background-color: rgb(226, 202, 226); /* light gray background */
+  border-radius: 15px;       /* soft rounded edges */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+  text-align: center;    
+}
+
+

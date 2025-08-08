@@ -66,14 +66,16 @@ function displayCurrentWord() {
 function checkAnswer() {
     const userInput = document.querySelector('#submissionBox').value.trim().toLowerCase();
     const correctAnswer = vocab[currentIndex].answer.trim().toLowerCase();
+    // const speech = new SpeechSynthesisUtterance(userInput);
+    // window.speechSynthesis.speak(speech)
 
     if (userInput === correctAnswer) {
-        console.log("Correct!");
+        document.getElementById("correctness").innerText = 'Correct!';
         currentIndex++;
         document.querySelector('#submissionBox').value = '';
         displayCurrentWord();
     } else {
-        console.log("Try again!");
+        document.getElementById("correctness").innerText = 'Try again!';
     }
 }
 
