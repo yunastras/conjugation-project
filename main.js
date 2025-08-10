@@ -29,7 +29,7 @@ function loadVocabWithPromises() {
 
 // Variable to store the loaded vocabulary data
 let vocab = null;
-let currentIndex = 0;
+let randomIndex = 0;
 
 // Async/await is a way to write asynchronous code in JavaScript that looks and behaves more like regular, synchronous code.
 // When you use 'await' in front of a Promise (like fetch), JavaScript pauses the function at that line until the Promise resolves,
@@ -53,25 +53,26 @@ async function loadVocab()   {
     }
 }
 
+
 function displayCurrentWord() {
-    if (currentIndex >= vocab.length) {
+    if (randomIndex >= vocab.length) {
         document.getElementById("frenchWords").innerText = "All done! 🎉";
         return;
     }
-    const item = vocab[currentIndex];
+    randomIndex = Math.floor(Math.random() * vocab.length);
+    const item = vocab[randomIndex];
     document.getElementById("frenchWords").innerText =
         `Pronoun: ${item.pronoun}, Verb: ${item.verb}, Tense: ${item.tense}`;
 }
 
 function checkAnswer() {
     const userInput = document.querySelector('#submissionBox').value.trim().toLowerCase();
-    const correctAnswer = vocab[currentIndex].answer.trim().toLowerCase();
+    const correctAnswer = vocab[randomIndex].answer.trim().toLowerCase();
     // const speech = new SpeechSynthesisUtterance(userInput);
     // window.speechSynthesis.speak(speech)
 
     if (userInput === correctAnswer) {
         document.getElementById("correctness").innerText = 'Correct!';
-        currentIndex++;
         document.querySelector('#submissionBox').value = '';
         displayCurrentWord();
     } else {
