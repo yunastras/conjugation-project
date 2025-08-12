@@ -5,6 +5,7 @@ The .then method lets you specify what to do when the data is ready, without blo
 This is how JavaScript handles operations that take time, like loading files or making network requests, so your page stays responsive.
 */
 
+//sk_a2e15a9d49de39815ef528382a48ebf9904595926fff7350
 
 // Example usage of loadVocabWithPromises
 loadVocabWithPromises().then(data => {
@@ -56,20 +57,27 @@ async function loadVocab()   {
 
 function displayCurrentWord() {
     if (randomIndex >= vocab.length) {
-        document.getElementById("frenchWords").innerText = "All done! 🎉";
+        document.getElementById("frenchWords").innerText = "All done!";
         return;
     }
     randomIndex = Math.floor(Math.random() * vocab.length);
     const item = vocab[randomIndex];
-    document.getElementById("frenchWords").innerText =
-        `Pronoun: ${item.pronoun}, Verb: ${item.verb}, Tense: ${item.tense}`;
+    document.getElementById("pronouns").innerText =
+        `Pronoun: ${item.pronoun}`;
+    document.getElementById("verbs").innerText =
+        `Verb: ${item.verb}`;
+    document.getElementById("tense").innerText =
+        `Tense: ${item.tense}`;
 }
 
 function checkAnswer() {
     const userInput = document.querySelector('#submissionBox').value.trim().toLowerCase();
     const correctAnswer = vocab[randomIndex].answer.trim().toLowerCase();
-    // const speech = new SpeechSynthesisUtterance(userInput);
-    // window.speechSynthesis.speak(speech)
+    
+    const voices = speechSynthesis.getVoices();
+    const utterance = new SpeechSynthesisUtterance(userInput);
+    utterance.lang = "fr-FR";
+    window.speechSynthesis.speak(utterance);
 
     if (userInput === correctAnswer) {
         document.getElementById("correctness").innerText = 'Correct!';
@@ -79,5 +87,13 @@ function checkAnswer() {
         document.getElementById("correctness").innerText = 'Try again!';
     }
 }
+
+document.getElementById("submissionBox")
+  .addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      checkAnswer();      
+      event.preventDefault(); 
+    }
+  });
 
 loadVocab();
