@@ -17,13 +17,15 @@ body {
   align-items: center;    /* center horizontally */
   gap: 10px;              /* optional spacing between elements */
 
-  width: 440px;              /* box width */
+  width: 440px; 
+  height: 200px;             /* box width */
   padding: 50px;             /* inside spacing */
   margin: 100px auto;        /* center horizontally + some vertical space */
   background-color: rgb(163,177,138,255);
   border-radius: 15px;       /* soft rounded edges */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
-  text-align: center;    
+  text-align: center;   
+  font-size: 40px; 
 }
 
 .frenchwords {
@@ -79,13 +81,36 @@ width: 170px;
   display: flex;
   flex-direction: column; /* stack items vertically */
   align-items: center;    /* center horizontally */
-  gap: 10px;              /* optional spacing between elements */
+  gap: 10px;  
+  position: relative;
+  top: -50px;            
 
   width: 400px;              /* box width */
   padding: 20px;             /* inside spacing */
-  margin: 100px auto;        /* center horizontally + some vertical space */
+  margin: 10px auto;        /* center horizontally + some vertical space */
   background-color: rgb(163,177,138,255);
   border-radius: 15px;       /* soft rounded edges */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
   text-align: center;    
+}
+
+#correctness {
+
+width: 170px;
+  padding: 10px;
+  background-color: rgba(163,177,138,1);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+#submissionBox {
+
+  background-color: #fffcec;
+   border: 2px solid #A3B18A; /* change black border to your color */
+  border-radius: 10px;       /* optional rounded corners */
+  padding: 10px;
+
 }

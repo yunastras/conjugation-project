@@ -68,6 +68,9 @@ function displayCurrentWord() {
         `Verb: ${item.verb}`;
     document.getElementById("tense").innerText =
         `Tense: ${item.tense}`;
+
+    document.getElementById("fillinblankbox").innerText = 
+        `${item.pronoun} ____`;
 }
 
 function checkAnswer() {
