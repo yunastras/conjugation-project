@@ -83,13 +83,32 @@ function checkAnswer() {
     window.speechSynthesis.speak(utterance);
 
     if (userInput === correctAnswer) {
+        const item = vocab[randomIndex];
         document.getElementById("correctness").innerText = 'Correct!';
         document.querySelector('#submissionBox').value = '';
-        displayCurrentWord();
+        document.getElementById("fillinblankbox").innerText = 
+        `${item.pronoun} ${item.answer}`;
+        // displayCurrentWord();
+
+    document.getElementById("nextbutton")
+      .addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      displayCurrentWord();      
+      event.preventDefault(); 
+    }
+  });
+
+  document.getElementById("nextbutton")
+  .addEventListener("click", displayCurrentWord);
+  
+        
     } else {
         document.getElementById("correctness").innerText = 'Try again!';
     }
 }
+
+
+
 
 document.getElementById("submissionBox")
   .addEventListener("keypress", function(event) {

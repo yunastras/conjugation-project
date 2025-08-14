@@ -1,5 +1,6 @@
 body {
-  background-color:   #fffcec
+  background-color:   #fffcec;
+  overflow-x: hidden;
 }
 
 #projectTitle {
@@ -13,12 +14,16 @@ body {
 
 .center {
   display: flex;
-  flex-direction: column; /* stack items vertically */
+  flex-direction: column; 
+  justify-content: center;/* stack items vertically */
   align-items: center;    /* center horizontally */
   gap: 10px;              /* optional spacing between elements */
 
-  width: 440px; 
-  height: 200px;             /* box width */
+
+  width: 60%; 
+  max-width: 440px; 
+  height: 70%;
+  max-height: 200px;             /* box width */
   padding: 50px;             /* inside spacing */
   margin: 100px auto;        /* center horizontally + some vertical space */
   background-color: rgb(163,177,138,255);
@@ -38,9 +43,16 @@ body {
   
 }
 
+@media (max-width: 480px) {
+  .frenchwords {
+    gap: 10px; 
+  }
+}
+
 #pronouns {
 
-width: 170px;             
+  width: 30%;
+  max-width: 170px;             
   padding: 10px;            
   margin: 10px;   
   background-color: rgb(163,177,138,255);
@@ -53,7 +65,8 @@ width: 170px;
 
 #verbs {
 
-width: 170px;             
+  width: 30%;
+  max-width: 170px;              
   padding: 10px;            
   margin: 10px;   
   background-color: rgb(163,177,138,255);
@@ -66,7 +79,8 @@ width: 170px;
 
 #tense {
 
-width: 170px;             
+  width: 30%;
+  max-width: 170px;              
   padding: 10px;            
   margin: 10px;   
   background-color: rgb(163,177,138,255);
@@ -79,13 +93,16 @@ width: 170px;
 
 .bottomanswers {
   display: flex;
+  justify-content: center;
   flex-direction: column; /* stack items vertically */
   align-items: center;    /* center horizontally */
   gap: 10px;  
   position: relative;
-  top: -50px;            
-
-  width: 400px;              /* box width */
+  top: -50px;   
+  
+  
+  width: 50%; 
+  max-width: 400px;              /* box width */
   padding: 20px;             /* inside spacing */
   margin: 10px auto;        /* center horizontally + some vertical space */
   background-color: rgb(163,177,138,255);
