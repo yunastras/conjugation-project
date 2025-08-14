@@ -70,7 +70,7 @@ function displayCurrentWord() {
         `Tense: ${item.tense}`;
 
     document.getElementById("fillinblankbox").innerText = 
-        `${item.pronoun} ____`;
+        `${item.pronoun}`;
 }
 
 function checkAnswer() {
@@ -86,7 +86,7 @@ function checkAnswer() {
         const item = vocab[randomIndex];
         document.getElementById("correctness").innerText = 'Correct!';
         document.querySelector('#submissionBox').value = '';
-        document.getElementById("fillinblankbox").innerText = 
+        document.getElementById("answerreveal").innerText = 
         `${item.pronoun} ${item.answer}`;
         // displayCurrentWord();
 
@@ -98,8 +98,8 @@ function checkAnswer() {
     }
   });
 
-  document.getElementById("nextbutton")
-  .addEventListener("click", displayCurrentWord);
+//   document.getElementById("nextbutton")
+//   .addEventListener("click", displayCurrentWord);
   
         
     } else {
@@ -107,15 +107,26 @@ function checkAnswer() {
     }
 }
 
-
-
+document.getElementById("nextbutton")
+  .addEventListener("click", displayCurrentWord);
 
 document.getElementById("submissionBox")
   .addEventListener("keypress", function(event) {
     if (event.key === "Enter") {
-      checkAnswer();      
+      checkAnswer();   
+      const box = document.getElementById("hiddenbox");
+  box.classList.add("show");   
       event.preventDefault(); 
     }
   });
+
+  document.getElementById("answerbutton")
+  .addEventListener("click", function(event) {
+    const item = vocab[randomIndex];
+      document.getElementById("answerreveal").innerText = 
+        `${item.pronoun} ${item.answer}`; 
+      
+    }
+  );
 
 loadVocab();
