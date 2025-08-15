@@ -5,7 +5,6 @@ The .then method lets you specify what to do when the data is ready, without blo
 This is how JavaScript handles operations that take time, like loading files or making network requests, so your page stays responsive.
 */
 
-//sk_a2e15a9d49de39815ef528382a48ebf9904595926fff7350
 
 // Example usage of loadVocabWithPromises
 loadVocabWithPromises().then(data => {
@@ -124,8 +123,20 @@ function checkAnswer() {
 function speakPhrase() {
   const item = vocab[randomIndex]; 
   const utterance = new SpeechSynthesisUtterance(`${item.pronoun} ${item.verb}`);
-  utterance.lang = "fr-FR";
+  
+  const voices = window.speechSynthesis.getVoices();
+  const frenchVoice = voices.find(voice => voice.lang.startsWith('fr'));
+  if (frenchVoice) {
+    utterance.voice = frenchVoice; // force a French voice
+  }
+
+  utterance.lang = "fr-FR"; // keep lang just in case
   window.speechSynthesis.speak(utterance);
+}
+
+// Make sure voices are loaded
+if (speechSynthesis.onvoiceschanged !== undefined) {
+  speechSynthesis.onvoiceschanged = () => { /* now voices are ready */ };
 }
 
 function speakAnswer() {

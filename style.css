@@ -358,3 +358,10 @@ display: flex;
   font-family: 'Times New Roman', serif;
   z-index: 999; 
 } */
+
+@media (max-width: 480px) {
+  .fleurright,
+  .fleurleft {
+    display: none;
+  }
+}
