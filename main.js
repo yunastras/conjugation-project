@@ -120,30 +120,48 @@ function checkAnswer() {
     }
 }
 
-function speakPhrase() {
-  const item = vocab[randomIndex]; 
-  const utterance = new SpeechSynthesisUtterance(`${item.pronoun} ${item.verb}`);
-  
-  const voices = window.speechSynthesis.getVoices();
-  const frenchVoice = voices.find(voice => voice.lang.startsWith('fr'));
-  if (frenchVoice) {
-    utterance.voice = frenchVoice; // force a French voice
+let voices = [];
+
+// Load voices once
+function loadVoices() {
+  voices = window.speechSynthesis.getVoices();
+  if (!voices.length) {
+    setTimeout(loadVoices, 100); // retry if voices not loaded yet
+  }
+}
+
+window.speechSynthesis.onvoiceschanged = loadVoices;
+loadVoices();
+
+// Reusable speak function
+function speakText(text) {
+  if (!voices.length) {
+    // Retry shortly if voices aren’t loaded yet
+    setTimeout(() => speakText(text), 100);
+    return;
   }
 
-  utterance.lang = "fr-FR"; // keep lang just in case
+  const utterance = new SpeechSynthesisUtterance(text);
+
+  // Explicitly select a French voice if available
+  const frenchVoice = voices.find(v => v.lang.startsWith('fr'));
+  if (frenchVoice) {
+    utterance.voice = frenchVoice;
+  }
+
+  utterance.lang = 'fr-FR';
   window.speechSynthesis.speak(utterance);
 }
 
-// Make sure voices are loaded
-if (speechSynthesis.onvoiceschanged !== undefined) {
-  speechSynthesis.onvoiceschanged = () => { /* now voices are ready */ };
+// Examples of using the same function for different content:
+function speakPhrase() {
+  const item = vocab[randomIndex];
+  speakText(`${item.pronoun} ${item.verb}`);
 }
 
 function speakAnswer() {
-  const item = vocab[randomIndex]; 
-  const utterance = new SpeechSynthesisUtterance(`${item.pronoun} ${item.answer}`);
-  utterance.lang = "fr-FR";
-  window.speechSynthesis.speak(utterance);
+  const item = vocab[randomIndex];
+  speakText(`${item.pronoun} ${item.answer}`);
 }
 
 const speechButton = document.getElementById("speechbutton");
