@@ -5,6 +5,10 @@ body {
   background-size: cover;
 }
 
+html {
+  scrollbar-gutter: stable; /* Keeps space reserved for scrollbar */
+}
+
 .goldenbordersvg {
   
   background-size: cover;       
@@ -14,7 +18,7 @@ body {
   width: 100vw;                    
   height: 100vh;                    
   
-  position: absolute;              
+  position: fixed;              
   top: 0;
   left: 50%;             
   transform: translateX(-50%);
@@ -22,6 +26,28 @@ body {
   z-index: 0;                      
 }
 
+.fleurleft {
+  position: fixed;
+  left: 20.35px;       /* distance from the left edge */
+  top: 50%;         /* halfway down the page */
+  transform: translateY(-50%); /* truly center vertically */
+  
+  width: 80px;      /* make it smaller */
+  height: auto;     /* keep proportions */
+  
+  z-index: 10;      /* make sure it’s above background */
+}
+.fleurright {
+  position: fixed;              /* fixed to the viewport */
+  right: 20.35px;                   /* 20px from right edge */
+  top: 50%;                      /* vertically centered */
+  transform: translateY(-50%) scaleX(-1);
+  
+  width: 80px;
+  height: auto;
+  
+  z-index: 10;
+}
 #projectTitle {
   color: rgb(68, 56, 82);
 }
@@ -60,6 +86,7 @@ body {
   position: relative;
   top: 60px;
   color: #68523C;
+    
   
 }
 
@@ -108,7 +135,10 @@ color: #68523C;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   text-align: center;
 color: #68523C;
-
+  
+  /* min-height: 3em; 
+  display: flex;
+  align-items: center;  */
 }
 
 .bottomanswers {
@@ -157,7 +187,7 @@ width: 170px;
   position: relative;
   z-index: 2;
   background-color: #faf4df;
-   border: 1px solid #000000; /* change black border to your color */
+   border: 1px solid #c99f4cff; /* change black border to your color */
   border-radius: 10px;       /* optional rounded corners */
   padding: 10px;
   font-size: 24px;
@@ -186,7 +216,7 @@ width: 170px;
 #submitbutton {
 
   background-color: #faf4df;
-   border: 1px solid #000000; 
+   border: 1px solid #c99f4cff; 
   border-radius: 10px;       
   padding: 8px;
   font-size: 14px;
@@ -203,6 +233,26 @@ width: 170px;
 }
 
 #submitbutton:hover {
+  border: 2px solid rgb(70, 76, 58);   
+  background-color: #f5f5e0;   
+  box-shadow: 0 0 10px rgba(0,0,0,0.2); 
+}
+
+#speechbutton {
+  background-color:  #faf4df;
+  border: 1px solid #c99f4cff; /* change black border to your color */
+  border-radius: 10px;       /* optional rounded corners */
+  padding: 8px;
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  width: 40px;
+  text-align: center;
+  color: #68523C;
+  appearance: none;
+  z-index: 2; 
+}
+
+#speechbutton:hover {
   border: 2px solid rgb(70, 76, 58);   
   background-color: #f5f5e0;   
   box-shadow: 0 0 10px rgba(0,0,0,0.2); 
@@ -239,7 +289,7 @@ display: flex;
 
 #nextbutton {
   background-color: #e8c2bc;
-  border: 1px solid #000000; /* change black border to your color */
+  border: 1px solid #c99f4cff; /* change black border to your color */
   border-radius: 10px;       /* optional rounded corners */
   padding: 8px;
   font-size: 14px;
@@ -252,7 +302,7 @@ display: flex;
 
 #answerbutton {
   background-color: #e8c2bc;
-  border: 1px solid #000000; /* change black border to your color */
+  border: 1px solid #c99f4cff; /* change black border to your color */
   border-radius: 10px;       /* optional rounded corners */
   padding: 8px;
   font-size: 14px;

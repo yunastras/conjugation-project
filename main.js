@@ -84,7 +84,6 @@ function removeAnswerBoxWords() {
 
 
     if(answerreveal.innerText != "" || correctness != "") {
-      console.log("Txt is not nothing");
       answerreveal.innerText = " ";
       correctness.innerText = " ";
     }
@@ -94,10 +93,10 @@ function checkAnswer() {
     const userInput = document.querySelector('#submissionBox').value.trim().toLowerCase();
     const correctAnswer = vocab[randomIndex].answer.trim().toLowerCase();
     
-    const voices = speechSynthesis.getVoices();
-    const utterance = new SpeechSynthesisUtterance(userInput);
-    utterance.lang = "fr-FR";
-    window.speechSynthesis.speak(utterance);
+    // const voices = speechSynthesis.getVoices();
+    // const utterance = new SpeechSynthesisUtterance(userInput);
+    // utterance.lang = "fr-FR";
+    // window.speechSynthesis.speak(utterance);
 
     if (userInput === correctAnswer) {
         const item = vocab[randomIndex];
@@ -105,6 +104,7 @@ function checkAnswer() {
         document.querySelector('#submissionBox').value = '';
         document.getElementById("answerreveal").innerText = 
         `${item.pronoun} ${item.answer}`;
+        speakAnswer();
         // displayCurrentWord();
 
     document.getElementById("nextbutton")
@@ -121,7 +121,28 @@ function checkAnswer() {
     }
 }
 
-document.getElementById("nextbutton")
+function speakPhrase() {
+  const item = vocab[randomIndex]; 
+  const utterance = new SpeechSynthesisUtterance(`${item.pronoun} ${item.verb}`);
+  utterance.lang = "fr-FR";
+  window.speechSynthesis.speak(utterance);
+}
+
+function speakAnswer() {
+  const item = vocab[randomIndex]; 
+  const utterance = new SpeechSynthesisUtterance(`${item.pronoun} ${item.answer}`);
+  utterance.lang = "fr-FR";
+  window.speechSynthesis.speak(utterance);
+}
+
+const speechButton = document.getElementById("speechbutton");
+
+speechButton.addEventListener("click", speakPhrase); 
+speechButton.addEventListener("keypress", function(event) { 
+  if (event.key === "Enter") speakPhrase();
+});
+
+    document.getElementById("nextbutton")
   .addEventListener("click", displayCurrentWord);
 
 document.getElementById("submissionBox")
@@ -139,7 +160,7 @@ document.getElementById("submissionBox")
     const item = vocab[randomIndex];
       document.getElementById("answerreveal").innerText = 
         `${item.pronoun} ${item.answer}`; 
-      
+      speakAnswer();
     }
   );
 
