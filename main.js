@@ -71,6 +71,23 @@ function displayCurrentWord() {
 
     document.getElementById("fillinblankbox").innerText = 
         `${item.pronoun}`;
+
+      removeAnswerBoxWords();
+
+      // document.getElementById("correctness").innerText = ' ';
+  // document.getElementById("answerreveal").innerText = ' ';
+}
+
+function removeAnswerBoxWords() {
+  const answerreveal = document.getElementById("answerreveal");
+    const correctness = document.getElementById("correctness");
+
+
+    if(answerreveal.innerText != "" || correctness != "") {
+      console.log("Txt is not nothing");
+      answerreveal.innerText = " ";
+      correctness.innerText = " ";
+    }
 }
 
 function checkAnswer() {
@@ -109,6 +126,8 @@ function checkAnswer() {
 
 document.getElementById("nextbutton")
   .addEventListener("click", displayCurrentWord);
+  // document.getElementById("correctness").innerText = ' ';
+  // document.getElementById("answerreveal").innerText = ' ';
 
 document.getElementById("submissionBox")
   .addEventListener("keypress", function(event) {

@@ -268,4 +268,1376 @@
     "verb": "voir",
     "tense": "present",
     "answer": "voient"
-  } ]
+  },
+  {
+    "pronoun": "je",
+    "verb": "dormir",
+    "tense": "présent",
+    "answer": "dors"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "dormir",
+    "tense": "présent",
+    "answer": "dors"
+  },
+  {
+    "pronoun": "il",
+    "verb": "dormir",
+    "tense": "présent",
+    "answer": "dort"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "dormir",
+    "tense": "présent",
+    "answer": "dormons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "dormir",
+    "tense": "présent",
+    "answer": "dormez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "dormir",
+    "tense": "présent",
+    "answer": "dorment"
+  },
+  {
+    "pronoun": "je",
+    "verb": "lire",
+    "tense": "futur simple",
+    "answer": "lirai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "lire",
+    "tense": "futur simple",
+    "answer": "liras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "lire",
+    "tense": "futur simple",
+    "answer": "lira"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "lire",
+    "tense": "futur simple",
+    "answer": "lirons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "lire",
+    "tense": "futur simple",
+    "answer": "lirez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "lire",
+    "tense": "futur simple",
+    "answer": "liront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "écrire",
+    "tense": "imparfait",
+    "answer": "écrivais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "écrire",
+    "tense": "imparfait",
+    "answer": "écrivais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "écrire",
+    "tense": "imparfait",
+    "answer": "écrivait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "écrire",
+    "tense": "imparfait",
+    "answer": "écrivions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "écrire",
+    "tense": "imparfait",
+    "answer": "écriviez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "écrire",
+    "tense": "imparfait",
+    "answer": "écrivaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "courir",
+    "tense": "conditionnel présent",
+    "answer": "courrais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "courir",
+    "tense": "conditionnel présent",
+    "answer": "courrais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "courir",
+    "tense": "conditionnel présent",
+    "answer": "courrait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "courir",
+    "tense": "conditionnel présent",
+    "answer": "courrions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "courir",
+    "tense": "conditionnel présent",
+    "answer": "courriez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "courir",
+    "tense": "conditionnel présent",
+    "answer": "courraient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "acheter",
+    "tense": "présent",
+    "answer": "achète"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "acheter",
+    "tense": "présent",
+    "answer": "achètes"
+  },
+  {
+    "pronoun": "il",
+    "verb": "acheter",
+    "tense": "présent",
+    "answer": "achète"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "acheter",
+    "tense": "présent",
+    "answer": "achetons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "acheter",
+    "tense": "présent",
+    "answer": "achetez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "acheter",
+    "tense": "présent",
+    "answer": "achètent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "mettre",
+    "tense": "imparfait",
+    "answer": "mettais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "mettre",
+    "tense": "imparfait",
+    "answer": "mettais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "mettre",
+    "tense": "imparfait",
+    "answer": "mettait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "mettre",
+    "tense": "imparfait",
+    "answer": "mettions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "mettre",
+    "tense": "imparfait",
+    "answer": "mettiez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "mettre",
+    "tense": "imparfait",
+    "answer": "mettaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "ouvrir",
+    "tense": "présent",
+    "answer": "ouvre"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "ouvrir",
+    "tense": "présent",
+    "answer": "ouvres"
+  },
+  {
+    "pronoun": "il",
+    "verb": "ouvrir",
+    "tense": "présent",
+    "answer": "ouvre"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "ouvrir",
+    "tense": "présent",
+    "answer": "ouvrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "ouvrir",
+    "tense": "présent",
+    "answer": "ouvrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "ouvrir",
+    "tense": "présent",
+    "answer": "ouvrent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "choisir",
+    "tense": "futur simple",
+    "answer": "choisirai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "choisir",
+    "tense": "futur simple",
+    "answer": "choisiras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "choisir",
+    "tense": "futur simple",
+    "answer": "choisira"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "choisir",
+    "tense": "futur simple",
+    "answer": "choisirons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "choisir",
+    "tense": "futur simple",
+    "answer": "choisirez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "choisir",
+    "tense": "futur simple",
+    "answer": "choisiront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "répondre",
+    "tense": "imparfait",
+    "answer": "répondais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "répondre",
+    "tense": "imparfait",
+    "answer": "répondais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "répondre",
+    "tense": "imparfait",
+    "answer": "répondait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "répondre",
+    "tense": "imparfait",
+    "answer": "répondions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "répondre",
+    "tense": "imparfait",
+    "answer": "répondiez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "répondre",
+    "tense": "imparfait",
+    "answer": "répondaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "vendre",
+    "tense": "présent",
+    "answer": "vends"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "vendre",
+    "tense": "présent",
+    "answer": "vends"
+  },
+  {
+    "pronoun": "il",
+    "verb": "vendre",
+    "tense": "présent",
+    "answer": "vend"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "vendre",
+    "tense": "présent",
+    "answer": "vendons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "vendre",
+    "tense": "présent",
+    "answer": "vendez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "vendre",
+    "tense": "présent",
+    "answer": "vendent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "tenir",
+    "tense": "imparfait",
+    "answer": "tenais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "tenir",
+    "tense": "imparfait",
+    "answer": "tenais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "tenir",
+    "tense": "imparfait",
+    "answer": "tenait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "tenir",
+    "tense": "imparfait",
+    "answer": "tenions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "tenir",
+    "tense": "imparfait",
+    "answer": "teniez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "tenir",
+    "tense": "imparfait",
+    "answer": "tenaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "apprendre",
+    "tense": "présent",
+    "answer": "apprends"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "apprendre",
+    "tense": "présent",
+    "answer": "apprends"
+  },
+  {
+    "pronoun": "il",
+    "verb": "apprendre",
+    "tense": "présent",
+    "answer": "apprend"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "apprendre",
+    "tense": "présent",
+    "answer": "apprenons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "apprendre",
+    "tense": "présent",
+    "answer": "apprenez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "apprendre",
+    "tense": "présent",
+    "answer": "apprennent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "courir",
+    "tense": "présent",
+    "answer": "cours"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "courir",
+    "tense": "présent",
+    "answer": "cours"
+  },
+  {
+    "pronoun": "il",
+    "verb": "courir",
+    "tense": "présent",
+    "answer": "court"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "courir",
+    "tense": "présent",
+    "answer": "courons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "courir",
+    "tense": "présent",
+    "answer": "courez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "courir",
+    "tense": "présent",
+    "answer": "courent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrirai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écriras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrira"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrirons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrirez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écriront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "lire",
+    "tense": "imparfait",
+    "answer": "lisais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "lire",
+    "tense": "imparfait",
+    "answer": "lisais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "lire",
+    "tense": "imparfait",
+    "answer": "lisait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "lire",
+    "tense": "imparfait",
+    "answer": "lisions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "lire",
+    "tense": "imparfait",
+    "answer": "lisiez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "lire",
+    "tense": "imparfait",
+    "answer": "lisaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mets"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mets"
+  },
+  {
+    "pronoun": "il",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "met"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mettons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mettez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mettent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "comprendre",
+    "tense": "futur simple",
+    "answer": "comprendront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "dire",
+    "tense": "imparfait",
+    "answer": "disais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "dire",
+    "tense": "imparfait",
+    "answer": "disais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "dire",
+    "tense": "imparfait",
+    "answer": "disait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "dire",
+    "tense": "imparfait",
+    "answer": "disions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "dire",
+    "tense": "imparfait",
+    "answer": "disiez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "dire",
+    "tense": "imparfait",
+    "answer": "disaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "savoir",
+    "tense": "présent",
+    "answer": "sais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "savoir",
+    "tense": "présent",
+    "answer": "sais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "savoir",
+    "tense": "présent",
+    "answer": "sait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "savoir",
+    "tense": "présent",
+    "answer": "savons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "savoir",
+    "tense": "présent",
+    "answer": "savez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "savoir",
+    "tense": "présent",
+    "answer": "savent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "boire",
+    "tense": "présent",
+    "answer": "bois"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "boire",
+    "tense": "présent",
+    "answer": "bois"
+  },
+  {
+    "pronoun": "il",
+    "verb": "boire",
+    "tense": "présent",
+    "answer": "boit"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "boire",
+    "tense": "présent",
+    "answer": "buvons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "boire",
+    "tense": "présent",
+    "answer": "buvez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "boire",
+    "tense": "présent",
+    "answer": "boivent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "attendre",
+    "tense": "futur simple",
+    "answer": "attendrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "attendre",
+    "tense": "futur simple",
+    "answer": "attendras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "attendre",
+    "tense": "futur simple",
+    "answer": "attendra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "attendre",
+    "tense": "futur simple",
+    "answer": "attendrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "attendre",
+    "tense": "futur simple",
+    "answer": "attendrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "attendre",
+    "tense": "futur simple",
+    "answer": "attendront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "ouvrir",
+    "tense": "imparfait",
+    "answer": "ouvrais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "ouvrir",
+    "tense": "imparfait",
+    "answer": "ouvrais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "ouvrir",
+    "tense": "imparfait",
+    "answer": "ouvrait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "ouvrir",
+    "tense": "imparfait",
+    "answer": "ouvrions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "ouvrir",
+    "tense": "imparfait",
+    "answer": "ouvriez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "ouvrir",
+    "tense": "imparfait",
+    "answer": "ouvraient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "partir",
+    "tense": "présent",
+    "answer": "pars"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "partir",
+    "tense": "présent",
+    "answer": "pars"
+  },
+  {
+    "pronoun": "il",
+    "verb": "partir",
+    "tense": "présent",
+    "answer": "part"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "partir",
+    "tense": "présent",
+    "answer": "partons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "partir",
+    "tense": "présent",
+    "answer": "partez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "partir",
+    "tense": "présent",
+    "answer": "partent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "recevoir",
+    "tense": "recevra",
+    "answer": "recevra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "recevoir",
+    "tense": "futur simple",
+    "answer": "recevront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "suivre",
+    "tense": "imparfait",
+    "answer": "suivais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "suivre",
+    "tense": "imparfait",
+    "answer": "suivais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "suivre",
+    "tense": "imparfait",
+    "answer": "suivait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "suivre",
+    "tense": "imparfait",
+    "answer": "suivions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "suivre",
+    "tense": "imparfait",
+    "answer": "suiviez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "suivre",
+    "tense": "imparfait",
+    "answer": "suivaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "vivre",
+    "tense": "présent",
+    "answer": "vis"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "vivre",
+    "tense": "présent",
+    "answer": "vis"
+  },
+  {
+    "pronoun": "il",
+    "verb": "vivre",
+    "tense": "présent",
+    "answer": "vit"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "vivre",
+    "tense": "présent",
+    "answer": "vivons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "vivre",
+    "tense": "présent",
+    "answer": "vivez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "vivre",
+    "tense": "présent",
+    "answer": "vivent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "comprendre",
+    "tense": "présent",
+    "answer": "comprends"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "comprendre",
+    "tense": "présent",
+    "answer": "comprends"
+  },
+  {
+    "pronoun": "il",
+    "verb": "comprendre",
+    "tense": "présent",
+    "answer": "comprend"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "comprendre",
+    "tense": "présent",
+    "answer": "comprenons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "comprendre",
+    "tense": "présent",
+    "answer": "comprenez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "comprendre",
+    "tense": "présent",
+    "answer": "comprennent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrirai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écriras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrira"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrirons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écrirez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "écrire",
+    "tense": "futur simple",
+    "answer": "écriront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "apprendre",
+    "tense": "imparfait",
+    "answer": "apprenais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "apprendre",
+    "tense": "imparfait",
+    "answer": "apprenais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "apprendre",
+    "tense": "imparfait",
+    "answer": "apprenait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "apprendre",
+    "tense": "imparfait",
+    "answer": "apprenions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "apprendre",
+    "tense": "imparfait",
+    "answer": "appreniez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "apprendre",
+    "tense": "imparfait",
+    "answer": "apprenaient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mets"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mets"
+  },
+  {
+    "pronoun": "il",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "met"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mettons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mettez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "mettre",
+    "tense": "présent",
+    "answer": "mettent"
+  },
+  {
+    "pronoun": "je",
+    "verb": "tenir",
+    "tense": "futur simple",
+    "answer": "tiendrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "tenir",
+    "tense": "futur simple",
+    "answer": "tiendras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "tenir",
+    "tense": "futur simple",
+    "answer": "tiendra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "tenir",
+    "tense": "futur simple",
+    "answer": "tiendrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "tenir",
+    "tense": "futur simple",
+    "answer": "tiendrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "tenir",
+    "tense": "futur simple",
+    "answer": "tiendront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "courir",
+    "tense": "imparfait",
+    "answer": "courais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "courir",
+    "tense": "imparfait",
+    "answer": "courais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "courir",
+    "tense": "imparfait",
+    "answer": "courait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "courir",
+    "tense": "imparfait",
+    "answer": "courions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "courir",
+    "tense": "imparfait",
+    "answer": "couriez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "courir",
+    "tense": "imparfait",
+    "answer": "couraient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "vivre",
+    "tense": "futur simple",
+    "answer": "vivrai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "vivre",
+    "tense": "futur simple",
+    "answer": "vivras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "vivre",
+    "tense": "futur simple",
+    "answer": "vivra"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "vivre",
+    "tense": "futur simple",
+    "answer": "vivrons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "vivre",
+    "tense": "futur simple",
+    "answer": "vivrez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "vivre",
+    "tense": "futur simple",
+    "answer": "vivront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "envoyer",
+    "tense": "présent",
+    "answer": "envoie"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "envoyer",
+    "tense": "présent",
+    "answer": "envoies"
+  },
+  {
+    "pronoun": "il",
+    "verb": "envoyer",
+    "tense": "présent",
+    "answer": "envoie"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "envoyer",
+    "tense": "présent",
+    "answer": "envoyons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "envoyer",
+    "tense": "présent",
+    "answer": "envoyez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "envoyer",
+    "tense": "présent",
+    "answer": "envoient"
+  },
+  {
+    "pronoun": "je",
+    "verb": "payer",
+    "tense": "futur simple",
+    "answer": "paierai"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "payer",
+    "tense": "futur simple",
+    "answer": "paieras"
+  },
+  {
+    "pronoun": "il",
+    "verb": "payer",
+    "tense": "futur simple",
+    "answer": "paiera"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "payer",
+    "tense": "futur simple",
+    "answer": "paierons"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "payer",
+    "tense": "futur simple",
+    "answer": "paierez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "payer",
+    "tense": "futur simple",
+    "answer": "paieront"
+  },
+  {
+    "pronoun": "je",
+    "verb": "sentir",
+    "tense": "imparfait",
+    "answer": "sentais"
+  },
+  {
+    "pronoun": "tu",
+    "verb": "sentir",
+    "tense": "imparfait",
+    "answer": "sentais"
+  },
+  {
+    "pronoun": "il",
+    "verb": "sentir",
+    "tense": "imparfait",
+    "answer": "sentait"
+  },
+  {
+    "pronoun": "nous",
+    "verb": "sentir",
+    "tense": "imparfait",
+    "answer": "sentions"
+  },
+  {
+    "pronoun": "vous",
+    "verb": "sentir",
+    "tense": "imparfait",
+    "answer": "sentiez"
+  },
+  {
+    "pronoun": "ils",
+    "verb": "sentir",
+    "tense": "imparfait",
+    "answer": "sentaient"
+  }
+  
+]
+
+  

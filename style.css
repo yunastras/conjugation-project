@@ -25,11 +25,12 @@ body {
   max-height: 200px;             /* box width */
   padding: 50px;             /* inside spacing */
   margin: 100px auto;        /* center horizontally + some vertical space */
-  background-color: rgb(163,177,138,255);
+  background-color: #e8c2bc;
   border-radius: 15px;       /* soft rounded edges */
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
   text-align: center;   
   font-size: 40px; 
+  color: #68523C;
 }
 
 .frenchwords {
@@ -39,6 +40,7 @@ body {
   align-items: center;
   position: relative;
   top: 60px;
+  color: #68523C;
   
 }
 
@@ -54,11 +56,11 @@ body {
   max-width: 170px;             
   padding: 10px;            
   margin: 10px;   
-  background-color: rgb(163,177,138,255);
+  background-color: #e8c2bc;
   border-radius: 15px;      
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   text-align: center;
-
+  color: #68523C;
 
 }
 
@@ -68,11 +70,11 @@ body {
   max-width: 170px;              
   padding: 10px;            
   margin: 10px;   
-  background-color: rgb(163,177,138,255);
+  background-color: #e8c2bc;
   border-radius: 15px;      
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   text-align: center;
-
+color: #68523C;
 
 }
 
@@ -82,11 +84,11 @@ body {
   max-width: 170px;              
   padding: 10px;            
   margin: 10px;   
-  background-color: rgb(163,177,138,255);
+  background-color: #e8c2bc;
   border-radius: 15px;      
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   text-align: center;
-
+color: #68523C;
 
 }
 
@@ -98,32 +100,43 @@ body {
   gap: 10px;  
   position: relative;
   top: -50px;   
-  
+  color: #68523C;
   
   width: 50%; 
   max-width: 400px;              
   padding: 20px;             
   margin: 10px auto;        
-  background-color: rgb(163,177,138,255);
+  background-color: #e8c2bc;
   border-radius: 15px;       
   box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-  text-align: center;    
+  text-align: center;   
+
 }
 
-/* #correctness {
+#correctness {
 
 width: 170px;
   padding: 10px;
-  background-color: rgba(163,177,138,1);
+  background-color: #faf5de;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
   margin: 0 auto;
+  color: #68523C;
 
-} */
+}
+
+#answerreveal {
+  width: 170px;
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 0 auto;
+  color: #68523C;
+}
 
 #submissionBox {
-
+  position: relative;
+  z-index: 2;
   background-color: #faf4df;
    border: 1px solid #000000; /* change black border to your color */
   border-radius: 10px;       /* optional rounded corners */
@@ -185,7 +198,7 @@ width: 170px;
   margin-top: 20px;
   margin: 20px auto;
   width: 300px;
-  background-color: rgb(163,177,138,0.9);
+  background-color: #e8c2bc;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   text-align: center;
@@ -205,7 +218,7 @@ display: flex;
 }
 
 #nextbutton {
-  background-color: rgb(163,177,138,0.9);
+  background-color: #e8c2bc;
   border: 1px solid #000000; /* change black border to your color */
   border-radius: 10px;       /* optional rounded corners */
   padding: 8px;
@@ -213,12 +226,12 @@ display: flex;
   font-family: "Times New Roman", Times, serif;
   width: 70px;
   text-align: center;
-  
+  color: #68523C;
   appearance: none
 }
 
 #answerbutton {
-  background-color: rgb(163,177,138,0.9);
+  background-color: #e8c2bc;
   border: 1px solid #000000; /* change black border to your color */
   border-radius: 10px;       /* optional rounded corners */
   padding: 8px;
@@ -226,7 +239,7 @@ display: flex;
   font-family: "Times New Roman", Times, serif;
   width: 70px;
   text-align: center;
-  
+  color: #68523C;
   appearance: none
 }
 
@@ -237,6 +250,7 @@ display: flex;
   position: relative;
    top: -280px;
    gap: 700px;
+   
    
 }
 
@@ -252,8 +266,24 @@ display: flex;
 
 @media (max-width: 480px) {
   .leftrightbuttons {
-    gap: 20px;  /* shrink gap for small screens */
-    top: -110px; /* optional: smaller vertical offset */
-    flex-direction: row; /* optional: stack buttons vertically */
+    gap: 20px; 
+    top: -100px; 
+    flex-direction: row; 
   }
+}
+
+.topbar {
+  background-color: #e8c2bc; 
+  color: #4b2e2e; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+  font-family: 'Times New Roman', serif;
+  z-index: 999; 
 }
