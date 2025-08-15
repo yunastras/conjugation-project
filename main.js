@@ -114,9 +114,6 @@ function checkAnswer() {
       event.preventDefault(); 
     }
   });
-
-//   document.getElementById("nextbutton")
-//   .addEventListener("click", displayCurrentWord);
   
         
     } else {
@@ -126,8 +123,6 @@ function checkAnswer() {
 
 document.getElementById("nextbutton")
   .addEventListener("click", displayCurrentWord);
-  // document.getElementById("correctness").innerText = ' ';
-  // document.getElementById("answerreveal").innerText = ' ';
 
 document.getElementById("submissionBox")
   .addEventListener("keypress", function(event) {
