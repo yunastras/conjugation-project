@@ -6,7 +6,7 @@ body {
 }
 
 html {
-  scrollbar-gutter: stable; /* Keeps space reserved for scrollbar */
+  scrollbar-gutter: stable; 
 }
 
 .goldenbordersvg {
@@ -28,19 +28,19 @@ html {
 
 .fleurleft {
   position: fixed;
-  left: 20.35px;       /* distance from the left edge */
-  top: 50%;         /* halfway down the page */
-  transform: translateY(-50%); /* truly center vertically */
+  left: 20.35px;       
+  top: 50%;         
+  transform: translateY(-50%); 
   
-  width: 80px;      /* make it smaller */
-  height: auto;     /* keep proportions */
+  width: 80px;      
+  height: auto;     
   
   z-index: 10;      /* make sure it’s above background */
 }
 .fleurright {
-  position: fixed;              /* fixed to the viewport */
-  right: 20.35px;                   /* 20px from right edge */
-  top: 50%;                      /* vertically centered */
+  position: fixed;              
+  right: 20.35px;                   
+  top: 50%;                      
   transform: translateY(-50%) scaleX(-1);
   
   width: 80px;
@@ -60,19 +60,19 @@ html {
 .center {
   display: flex;
   flex-direction: row; 
-  justify-content: center;/* stack items vertically */
-  align-items: center;    /* center horizontally */
-  gap: 30px;              /* optional spacing between elements */
+  justify-content: center;
+  align-items: center;    
+  gap: 30px;              
 
   width: 60%; 
   max-width: 440px; 
   height: 70%;
-  max-height: 200px;             /* box width */
-  padding: 50px;             /* inside spacing */
-  margin: 100px auto;        /* center horizontally + some vertical space */
+  max-height: 200px;             
+  padding: 50px;             
+  margin: 100px auto;        
   background-color: #e8c2bc;
-  border-radius: 15px;       /* soft rounded edges */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+  border-radius: 15px;       
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
   text-align: center;   
   font-size: 40px; 
   color: #68523C;
@@ -136,9 +136,6 @@ color: #68523C;
   text-align: center;
 color: #68523C;
   
-  /* min-height: 3em; 
-  display: flex;
-  align-items: center;  */
 }
 
 .bottomanswers {
@@ -187,8 +184,8 @@ width: 170px;
   position: relative;
   z-index: 2;
   background-color: #faf4df;
-   border: 1px solid #c99f4cff; /* change black border to your color */
-  border-radius: 10px;       /* optional rounded corners */
+   border: 1px solid #c99f4cff; 
+  border-radius: 10px;       
   padding: 10px;
   font-size: 24px;
   font-family: "Times New Roman", Times, serif;
@@ -240,8 +237,8 @@ width: 170px;
 
 #speechbutton {
   background-color:  #faf4df;
-  border: 1px solid #c99f4cff; /* change black border to your color */
-  border-radius: 10px;       /* optional rounded corners */
+  border: 1px solid #c99f4cff; 
+  border-radius: 10px;       
   padding: 8px;
   font-size: 14px;
   font-family: "Times New Roman", Times, serif;
@@ -283,14 +280,14 @@ width: 170px;
 
 .row {
 display: flex;
-  gap: 10px;              /* space between the two items in the row */
+  gap: 10px;              
   justify-content: center;
 }
 
 #nextbutton {
   background-color: #e8c2bc;
-  border: 1px solid #c99f4cff; /* change black border to your color */
-  border-radius: 10px;       /* optional rounded corners */
+  border: 1px solid #c99f4cff; 
+  border-radius: 10px;       
   padding: 8px;
   font-size: 14px;
   font-family: "Times New Roman", Times, serif;
@@ -302,8 +299,8 @@ display: flex;
 
 #answerbutton {
   background-color: #e8c2bc;
-  border: 1px solid #c99f4cff; /* change black border to your color */
-  border-radius: 10px;       /* optional rounded corners */
+  border: 1px solid #c99f4cff; 
+  border-radius: 10px;       
   padding: 8px;
   font-size: 14px;
   font-family: "Times New Roman", Times, serif;
@@ -342,22 +339,7 @@ display: flex;
   }
 }
 
-/* .topbar {
-  background-color: #e8c2bc; 
-  color: #4b2e2e; 
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  padding: 10px 20px;
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 2%;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
-  font-family: 'Times New Roman', serif;
-  z-index: 999; 
-} */
+
 
 @media (max-width: 480px) {
   .fleurright,

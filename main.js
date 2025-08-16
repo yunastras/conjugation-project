@@ -73,8 +73,6 @@ function displayCurrentWord() {
 
       removeAnswerBoxWords();
 
-      // document.getElementById("correctness").innerText = ' ';
-  // document.getElementById("answerreveal").innerText = ' ';
 }
 
 function removeAnswerBoxWords() {
@@ -91,11 +89,6 @@ function removeAnswerBoxWords() {
 function checkAnswer() {
     const userInput = document.querySelector('#submissionBox').value.trim().toLowerCase();
     const correctAnswer = vocab[randomIndex].answer.trim().toLowerCase();
-    
-    // const voices = speechSynthesis.getVoices();
-    // const utterance = new SpeechSynthesisUtterance(userInput);
-    // utterance.lang = "fr-FR";
-    // window.speechSynthesis.speak(utterance);
 
     if (userInput === correctAnswer) {
         const item = vocab[randomIndex];
@@ -104,7 +97,6 @@ function checkAnswer() {
         document.getElementById("answerreveal").innerText = 
         `${item.pronoun} ${item.answer}`;
         speakAnswer();
-        // displayCurrentWord();
 
     document.getElementById("nextbutton")
       .addEventListener("keypress", function(event) {
@@ -122,28 +114,24 @@ function checkAnswer() {
 
 let voices = [];
 
-// Load voices once
 function loadVoices() {
   voices = window.speechSynthesis.getVoices();
   if (!voices.length) {
-    setTimeout(loadVoices, 100); // retry if voices not loaded yet
+    setTimeout(loadVoices, 100); 
   }
 }
 
 window.speechSynthesis.onvoiceschanged = loadVoices;
 loadVoices();
 
-// Reusable speak function
 function speakText(text) {
   if (!voices.length) {
-    // Retry shortly if voices aren’t loaded yet
     setTimeout(() => speakText(text), 100);
     return;
   }
 
   const utterance = new SpeechSynthesisUtterance(text);
 
-  // Explicitly select a French voice if available
   const frenchVoice = voices.find(v => v.lang.startsWith('fr'));
   if (frenchVoice) {
     utterance.voice = frenchVoice;
@@ -153,7 +141,6 @@ function speakText(text) {
   window.speechSynthesis.speak(utterance);
 }
 
-// Examples of using the same function for different content:
 function speakPhrase() {
   const item = vocab[randomIndex];
   speakText(`${item.pronoun} ${item.verb}`);
